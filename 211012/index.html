@@ -5,21 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="composition.css">
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 <body>
-    <main>
-        <section id="persoonlijk" class="card">
+    <main class="bg-gray">
+        <section id="persoonlijk" class="card shadow-high bg-white">
             <img src="afbeeldingen/me.jpg" alt="mijn profielfoto">
             <h1>princess asheshe</h1>
             <ul>
-                <li>5BIN</li>
-                <li>ANtwerpen,BE</li>
-                <li>ax@gmail.com</li>
-                <li>0456768945</li>
+                <li> <span class="material-icons">
+                    business_center
+                    </span> 5BIN</li>
+                <li> <span class="material-icons">
+                    home
+                    </span> ANtwerpen,BE</li>
+                <li> <span class="material-icons">
+                    mail
+                    </span> ax@gmail.com</li>
+                <li> <span class="material-icons">
+                    phone
+                    </span> 0456768945</li>
             </ul>
             <hr>
             <div id="vaardigheden" class="balkjes">
-                <h3>Skills</h3>
+                <h3> 
+                    <span class="material-icons">
+                        grade
+                        </span>
+                    Skills</h3>
                 <ul>
                     <li>
                         <p>Adobe Photoshop</p>
@@ -56,7 +72,9 @@
                 </ul>
             </div>
             <div id="taalkennis" class="balkjes">
-                <h3>Languages</h3>
+                <h3> <span class="material-icons">
+                    public
+                    </span> Languages</h3>
                 <li>
                     <p>English</p>
                     <div class="balkje">
@@ -83,13 +101,17 @@
                 </li>
             </div>
         </section>
-        <section id="werkervaring" class="card tijdslijn">
-            <h2>work experience</h2>
+        <section id="werkervaring" class="card tijdslijn shadow-low bg-white">
+            <h2> <span class="material-icons">
+                work
+                </span> work experience</h2>
             <ul>
                 <li>
                     <h3>Front and developer/w3schools.com</h3>
                     <div class="tijdslijn-tijd">
-                        <time datetime="2015-01-01">jan 2015</time>
+                        <time datetime="2015-01-01"> <span class="material-icons">
+                            date_range
+                            </span> jan 2015</time>
                         -
                         <time>current</time>
                         <p>
@@ -101,9 +123,11 @@
                 <li>
                     <h3>web developer/somethings.com</h3>
                     <div class="tijdslijn-tijd">
-                        <time datetime="2013-03-01">mar 2012</time>
+                        <time datetime="2013-03-01"> <span class="material-icons">
+                            date_range
+                            </span> mar 2012</time>
                         -
-                        <time datetime="2013">Jan 2015</time>
+                        <time datetime="2013-03-01">Jan 2015</time>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab qui officia? Odit animi perspiciatis nobis? Dolor vero repudiandae similique, magni odio nihil ab esse quos quidem perspiciatis libero sunt.
                         </p>
@@ -111,11 +135,13 @@
                 </li>
                 <hr>
                 <li>
-                    <h3>Front and developer/w3schools.com</h3>
+                    <h3>graphic designer/designdeveloper.com</h3>
                     <div class="tijdslijn-tijd">
-                        <time datetime="2015-01-01">jan 2015</time>
+                        <time datetime="2015-05-01"> <span class="material-icons">
+                            date_range
+                            </span> jun 2015</time>
                         -
-                        <time>current</time>
+                        <time datetime="2012-03-01">mar 2012</time>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ab qui officia? Odit animi perspiciatis nobis? Dolor vero repudiandae similique, magni odio nihil ab esse quos quidem perspiciatis libero sunt.
                         </p>
@@ -124,12 +150,56 @@
                 <hr>
             </ul>
         </section>
-        <section id="studies" class="card tijdslijn">
+        <section id="studies" class="card tijdslijn shadow-low bg-white">
             <h2>studies</h2>
+            <h3>w3schools.com</h3>
+            <div class="tijdslijn-tijd">
+                <time datetime="2015-05-01"> <span class="material-icons">
+                    date_range
+                    </span> forever</time>
+                <p>
+                    web development! all i need to know in one place
+                </p>
+            </div>
+        </li>
+        <hr>
+        <h3>london business school</h3>
+        <div class="tijdslijn-tijd">
+            <time datetime="2013-05-01"> <span class="material-icons">
+                date_range
+                </span> 2013</time>
+            -
+            <time datetime="2015-03-01">2015</time>
+            <p>
+                master degree
+            </p>
+        </div>
+    </li>
+    <hr>
+    <h3>school of coding</h3>
+    <div class="tijdslijn-tijd">
+        <time datetime="201O-05-01"> <span class="material-icons">
+            date_range
+            </span> 2010</time>
+        -
+        <time datetime="2013-03-01">2013</time>
+        <p>
+            bachelor degree
+        </p>
+    </div>
+</li>
         </section>
     </main>
-    <footer id="socialeMedia">
-
+    <footer id="socialeMedia" class="bg-green text-white">
+        <p>find me on social media</p>
+        <ul id="socialeMediaLijst">
+            <li>p</li>
+            <li>e</li>
+            <li>m</li>
+            <li>l</li>
+            <li>i</li>
+        </ul>
+    <p>powered by <a href="">w3.css</a></p>
     </footer>
 </body>
 </html>

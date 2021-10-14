@@ -1,3 +1,49 @@
 /*composition*/
-/*heeft alles te maken met ruimte 
-/*
+/*heeft alles te maken met ruimte en layout*/
+/*we beginnen met ruimte (layout is voor de volgende les)*/
+
+html{
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4{
+    line-height: 0.9;
+}
+
+img{
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+main{
+    padding: 1rem;
+}
+
+.card{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+#socialeMedia{
+    text-align: center;
+    padding: 1rem;
+}
+
+#socialeMedia>*{
+    margin: 1rem;
+}
+
+#socialeMediaLijst{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#socialeMediaLijst>li{
+    display: inline;
+}
+

@@ -1,0 +1,26 @@
+/* UTILITIES*/
+/*kleine klassen die helpen met kleur en interne ruimte*/
+
+.bg-green{
+    background-color: #009688;
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+}
+
+.bg-gray{
+    background-color: #e4e0e0;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.shadow-high{
+    box-shadow: 0 0 1rem;
+}
+.shadow-low{
+    box-shadow: 0 0 0.5rem;
+}
+
