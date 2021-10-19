@@ -2,6 +2,16 @@
 /*heeft alles te maken met ruimte en layout*/
 /*we beginnen met ruimte (layout is voor de volgende les)*/
 
+:root{
+    --color-dominant: #FFFFFF;
+    --color-contrast: #AAAAAA;
+    --color-complement: #f1f1f1;
+    --color-accent: #009688;
+
+    --card-padding: 1rem;
+    --card-distance: 2rem;
+}
+
 html{
     font-family: sans-serif;
     line-height: 1.5;
@@ -20,20 +30,20 @@ body {
 }
 
 main{
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .card{
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: var(--card-padding);
+    margin-bottom: var(--card-distance);
 }
 
 #socialeMedia{
     text-align: center;
-    padding: 1rem;
+    padding: var(--card-padding);
 }
 
-#socialeMedia>*{
+#socialeMedia>* {
     margin: 1rem;
 }
 

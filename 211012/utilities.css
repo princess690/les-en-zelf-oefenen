@@ -2,19 +2,19 @@
 /*kleine klassen die helpen met kleur en interne ruimte*/
 
 .bg-green{
-    background-color: #009688;
+    background-color: var(--color-accent);
 }
 
 .bg-white{
-    background-color: #FFFFFF;
+    background-color: var(--color-dominant);
 }
 
 .bg-gray{
-    background-color: #e4e0e0;
+    background-color: var( --color-complement);
 }
 
 .text-white{
-    color: #FFFFFF;
+    color:  var(--color-dominant);
 }
 
 .shadow-high{
