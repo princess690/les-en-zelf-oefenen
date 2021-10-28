@@ -1,0 +1,25 @@
+#gridContainer{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 150px auto auto;
+
+    grid-template-areas: "banner banner banner"
+                         "menuLeft main menuRight"
+                         ".        main .";
+}
+
+#banner{
+    grid-area: banner;
+}
+
+#mainMenu{
+    grid-area: menuLeft;
+}
+
+#main{
+    grid-area: main;
+}
+
+#nuttigeLinks{
+    grid-area: menuRight; 
+}
