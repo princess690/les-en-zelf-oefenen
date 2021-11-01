@@ -7,13 +7,17 @@
     <title>Document</title>
     <link rel="stylesheet" href="composition.css">
     <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="blocks.css">
+
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
 
 </head>
 <body>
-    <main class="bg-gray">
-        <section id="persoonlijk" class="card shadow-high bg-white">
-            <img src="afbeeldingen/me.jpg" alt="mijn profielfoto">
+    <main id="mainGridContainer" class="bg-dominant">
+        <section id="persoonlijk" class="card shadow-high bg-complement">
+            <img src="afbeeldingen/me.png" alt="mijn profielfoto">
             <h1>princess asheshe</h1>
             <ul>
                 <li> <span class="material-icons">
@@ -40,7 +44,7 @@
                     <li>
                         <p>Adobe Photoshop</p>
                         <div class="balkje">
-                            <div class="balkje-vooruitgang">
+                            <div class="balkje-vooruitgang" style="width:90%">
                                 90%
                             </div>
                         </div>
@@ -48,7 +52,7 @@
                     <li>
                         <p>Photography</p>
                         <div class="balkje">
-                            <div class="balkje-vooruitgang">
+                            <div class="balkje-vooruitgang" style="width:80%">
                                 80%
                             </div>
                         </div>
@@ -56,7 +60,7 @@
                     <li>
                         <p>Illustration</p>
                         <div class="balkje">
-                            <div class="balkje-vooruitgang">
+                            <div class="balkje-vooruitgang" style="width:75%">
                                 75%
                             </div>
                         </div>
@@ -64,7 +68,7 @@
                     <li>
                         <p>Media</p>
                         <div class="balkje">
-                            <div class="balkje-vooruitgang">
+                            <div class="balkje-vooruitgang" style="width:50%">
                                 50%
                             </div>
                         </div>
@@ -75,10 +79,11 @@
                 <h3> <span class="material-icons">
                     public
                     </span> Languages</h3>
+                    <ul>
                 <li>
                     <p>English</p>
                     <div class="balkje">
-                        <div class="balkje-vooruitgang">
+                        <div class="balkje-vooruitgang" style="width:90%">
                             
                         </div>
                     </div>
@@ -86,7 +91,7 @@
                 <li>
                     <p>Nederlands</p>
                     <div class="balkje">
-                        <div class="balkje-vooruitgang">
+                        <div class="balkje-vooruitgang" style="width:95%">
                             
                         </div>
                     </div>
@@ -94,14 +99,15 @@
                 <li>
                     <p>Duits</p>
                     <div class="balkje">
-                        <div class="balkje-vooruitgang">
+                        <div class="balkje-vooruitgang" style="width:60%">
                             
                         </div>
                     </div>
                 </li>
+            </ul>
             </div>
         </section>
-        <section id="werkervaring" class="card tijdslijn shadow-low bg-white">
+        <section id="werkervaring" class="card tijdslijn shadow-low bg-complement">
             <h2> <span class="material-icons">
                 work
                 </span> work experience</h2>
@@ -150,7 +156,7 @@
                 <hr>
             </ul>
         </section>
-        <section id="studies" class="card tijdslijn shadow-low bg-white">
+        <section id="studies" class="card tijdslijn shadow-low bg-complement">
             <h2>studies</h2>
             <h3>w3schools.com</h3>
             <div class="tijdslijn-tijd">
@@ -190,7 +196,7 @@
 </li>
         </section>
     </main>
-    <footer id="socialeMedia" class="bg-green text-white">
+    <footer id="socialeMedia" class="bg-accent text-white">
         <p>find me on social media</p>
         <ul id="socialeMediaLijst">
             <li>p</li>

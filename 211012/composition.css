@@ -53,7 +53,46 @@ main{
     list-style-type: none;
 }
 
-#socialeMedialijst{
-    
+#socialeMediaLijst>li{
+    display: inline; 
 }
 
+@media only screen and (min-width:600px) {
+    #mainGridContainer{
+        display: grid;
+
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto auto auto;
+
+        grid-template-areas: "personal work "
+                             "personal education"
+                             ".        education";
+        grid-gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .card{
+        margin-bottom: 0;
+    } 
+
+    #persoonlijk{
+        grid-area: personal;
+    }
+
+    #werkervaring{
+        grid-area: work;
+    }
+    
+    #studies{
+        grid-area: education;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    #mainGridContainer{
+        grid-template-columns: 1fr 2fr 2fr;
+        grid-template-rows: auto;
+
+        grid-template-areas: "personal work education";
+    }
+}

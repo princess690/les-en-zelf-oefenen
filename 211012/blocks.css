@@ -1,0 +1,21 @@
+.balkje{
+    background-color: var(--color-complement);
+    border-radius: 9999px;
+    min-height: 20px;
+}
+
+.balkje-vooruitgang{
+    background-color: var(--color-accent);
+    color: var(--color-dominant);
+    text-align: center;
+    border-radius: inherit;
+    min-height: inherit;
+}
+
+.material-icons{
+    color: #009688;
+}
+time{
+    color: #009688;
+}
+

@@ -1,15 +1,15 @@
 /* UTILITIES*/
 /*kleine klassen die helpen met kleur en interne ruimte*/
 
-.bg-green{
+.bg-accent{
     background-color: var(--color-accent);
 }
 
-.bg-white{
+.bg-complement{
     background-color: var(--color-dominant);
 }
 
-.bg-gray{
+.bg-dominant{
     background-color: var( --color-complement);
 }
 
