@@ -18,7 +18,7 @@
 }
 
 .shadow-high{
-    box-shadow: 0 0 1rem;
+    box-shadow: 0 2px 5px 0;
 }
 .shadow-low{
     box-shadow: 0 0 0.5rem;
