@@ -1,0 +1,36 @@
+
+
+
+h1, h2, h3, h4 {
+    color: #FFFFFF;
+}
+
+header {
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 1rem solid #222;
+    
+}
+
+img{
+    width: 350px;
+}
+
+section#VoorStellen {
+    background-color: #FFFFFF;
+}
+
+#getuigenissen {
+    color: #FFFFFF;
+    background-color: #f44336;
+}
+
+div{
+    color: #FFFFFF;
+    background-color: #607d8b;
+}
+
+footer{
+    color: #FFFFFF;
+    background-color: #000000;
+}
