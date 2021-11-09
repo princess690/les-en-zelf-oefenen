@@ -1,0 +1,19 @@
+#main-menu{
+    width: 200px;
+}
+.main-menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu-link {
+    display: block;
+    padding: .5rem .25rem;
+}
+
+.main-menu-list>li+li .main-menu-link{
+    border-top: 2px solid #000;
+}
+
+

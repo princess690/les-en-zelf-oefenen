@@ -1,0 +1,9 @@
+.main-menu-link{
+    background-color: #585858;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.main-menu-link:hover{
+    background-color: #c51b2b;
+}
