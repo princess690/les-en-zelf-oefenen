@@ -1,0 +1,62 @@
+#logo{
+    background-color: royalblue;
+    margin: 0;
+    
+}
+
+#image{
+    width: 90px;
+    display: inline;
+}
+
+.motivation{
+ display: inline;
+ color: #FFF;
+ padding-top: .5rem;
+ float: inline-end;
+}
+
+#link{
+    border-bottom-style: solid;
+    border-color: black;
+}
+
+.link{
+    display: block;
+    padding: .5rem;
+    color: red;
+    background-color:#fffb005e;
+
+}
+
+.client{
+    background-color: #fffb005e;
+    border-style: solid;
+    margin-bottom: 0;
+}
+
+.werk{
+    list-style-type: none;
+    background-color: red;
+    margin: 0;
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 2rem;
+  
+}
+
+.pakje{
+    color: #FFF;
+    clear: both;
+    display: inline-block;
+    float: right;
+    position: absolute;
+    border-left: none;
+    width: 135px;
+    padding: 0;
+    height: 5.4rem;
+}
+
